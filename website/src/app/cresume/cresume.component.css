@@ -1,0 +1,27 @@
+.div{
+  background-color:#edb779;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 800;
+  padding: 5px 0;
+}
+.div a{
+  color:#4a3d2e;
+}
+.div a:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+.my-img{
+  border: 5px solid white;
+    border-radius: 50%;
+    width: 140px;
+    height: 170px;
+    margin: 50% 5px 10px 5px;
+}
+.main {
+  width: 100%;
+  background-color: #f5ede4;
+}

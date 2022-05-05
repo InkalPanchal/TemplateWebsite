@@ -1,0 +1,13 @@
+
+.navbar{
+    background-color: #2C3333;
+    padding: 30px 20px;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+  }
+  .navbar a:hover {
+    color:red;
+  }

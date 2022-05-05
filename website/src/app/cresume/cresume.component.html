@@ -1,0 +1,32 @@
+<div class="d-flex" style="position:relative; top:85px;">
+  <div class="navbar vh-100 text-center div p-4">
+    <ul class="list-unstyled ">
+      <li><img src="../../assets/inkal1.jpg" class="d-block rounded-circle my-img"  alt=""></li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/about']" >About</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/contact']" >Contact</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/education']">Education</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/skills']">Skills</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/projects']">Projects</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/experience']">Experience</a>
+      </li>
+      <li>
+        <a class="text-decoration-none" [routerLink]="['/cresume/interests']">Interests</a>
+      </li>
+    </ul>
+
+  </div>
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+</div>

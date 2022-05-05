@@ -1,0 +1,66 @@
+<div class="d-flex">
+  <div class="side">
+    <div id="sidebar" class="sidebar">
+      <ul style="list-style-type: none;">
+        <li class="day"> DAY1
+          <ul style="list-style-type: disc;">
+            <li>Practice
+              <ul>
+                <li><a [routerLink]="['/b1e1']">Practice1</a></li>
+                <li><a [routerLink]="['/b1e2']">Practice2</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a [routerLink]="['/b1a1']">Assignment1</a></li>
+                <li><a [routerLink]="['/b1a2']">Assignment2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="day"> DAY2
+          <ul style="list-style-type: disc;">
+            <li>Assignment
+              <ul>
+                <li><a [routerLink]="['../bresume']">Resume</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="day"> DAY3
+          <ul style="list-style-type: disc;">
+            <li>Assignment
+              <ul>
+                <li><a [routerLink]="['/bp1']">Project1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="day"> DAY4
+          <ul style="list-style-type: disc;">
+            <li>Assignment
+              <ul>
+                <li><a [routerLink]="['/bp2']">Project2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="day"> DAY5
+          <ul style="list-style-type: disc;">
+            <li>Assignment
+              <ul>
+                <li><a [routerLink]="['/bp3']">Project3</a></li>
+                <li><a [routerLink]="['/bp4']">Project4</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+  <div class="main" >
+    <router-outlet></router-outlet>
+  </div>
+</div>

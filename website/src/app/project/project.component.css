@@ -1,0 +1,15 @@
+.project{
+    padding: 150px 90px;
+}
+.project h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #945b44;
+}
+.project h3{
+    color: #4a3d2e;
+}
+.project p{
+    color: #7a6954;
+    margin-bottom: 50px;
+}

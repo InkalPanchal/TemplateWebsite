@@ -1,0 +1,27 @@
+.side {
+  position: relative;
+  top:90px;
+  height: 100vh;
+}
+.main{
+  position: relative;
+  top: 90px;
+  width: 100%;
+  /* overflow:scroll; */
+  /* left: 300px; */
+}
+.sidebar{
+  background-color: #f3b79a;
+  width: auto;
+  height: 100vh;
+  padding: 20px;
+  margin-top: 10px;
+  /* overflow:scroll; */
+}
+.sidebar a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar a:hover{
+  color: #fff;
+}

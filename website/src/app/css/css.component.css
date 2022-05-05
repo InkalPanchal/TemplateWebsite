@@ -1,0 +1,12 @@
+.side {
+  position: relative;
+  top:85px;
+  height: 100vh;
+}
+.main{
+  position: relative;
+  top: 85px;
+  width: 100%;
+  overflow:scroll;
+  /* left: 300px; */
+}

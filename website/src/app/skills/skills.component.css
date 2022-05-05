@@ -1,0 +1,24 @@
+.skills{
+    padding: 150px 50px;
+}
+
+.skills h2{
+    color: #945b44;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h4{
+  color:#4a3d2e;
+}
+.skills li{
+    color:#5e5141;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: 700;
+}
+
+.skills img{
+    background-color: #f5ede4;
+    height: 100px;
+    width: 100px;
+}

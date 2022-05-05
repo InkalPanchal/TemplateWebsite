@@ -1,0 +1,21 @@
+.about{
+  background-color: #f5ede4;
+  padding: 200px 50px ;
+}
+.name{
+    font-weight: 700;
+    color: #4a3d2e;
+    margin-bottom: 0;
+}
+.designation{
+    margin-top: 0;
+    font-weight: 600;
+    color:#4d88b3 ;
+}
+.aboutme{
+    color: #4a3d2e;
+    /* max-width: 600px; */
+}
+.about h5{
+    color: #4a3d2e;
+}

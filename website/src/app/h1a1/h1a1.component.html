@@ -1,0 +1,73 @@
+<main class="border p-4">
+  <form action="/" autocomplete="on">
+    <fieldset class="form">
+      <legend>Employee Details:</legend>
+      <label for="name">Employee Name: </label><br>
+      <input type="text" name="name" id="name" placeholder="Inkal Panchal" required>
+      <br>
+
+      <label for="age">Age: </label><br>
+      <input type="number" name="age" id="age" min="18" max="40" placeholder="21" required>
+      <br>
+      <label for="Gender">Gender: </label>
+      <input type="radio" name="female" id="female" value="Female"> Female
+      <input type="radio" name="male" id="male" value="male"> Male
+      <input type="radio" name="other" id="other"> Other
+      <br><br>
+      <hr>
+      <br>
+
+      <fieldset class="job">
+        <legend>Job details</legend>
+        <label for="designation">Designation: </label>
+        <select name="designation" id="designation">
+          <option value="select">Select Designation</option>
+          <option value="Fresher">Fresher</option>
+          <option value="Trainer">Trainer</option>
+          <option value="Manager">Manager</option>
+          <option value="assistantmanager">Assistant Manager</option>
+          <option value="Employee">Employee</option>
+        </select>
+
+        <br>
+        <label for="salary">Salary</label>
+        <input type="number" name="salary" placeholder="25,000/-" min="20000" max="35000">
+        <input type="range" name="salary" id="salary" min="20000" max="50000">
+        <br>
+
+        <label for="location">Location</label>
+        <select id="location">
+          <option value="location">location..</option>
+          <option value="Ahmedabad">Ahmedabad</option>
+          <option value="Baroda">Baroda</option>
+          <option value="Surat">Surat</option>
+        </select>
+        <br>
+        <label for="date">Date of Joining:</label>
+        <input type="date" name="date" id="date">
+      </fieldset>
+
+      <br>
+      <br>
+      <hr>
+      <fieldset class="contact">
+        <legend>Contact Details:</legend>
+        <label for="email">Email-Id:</label><br>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br>
+
+        <label for="contact">Contact Number:</label><br>
+        <input type="tel" name="contact" id="contact" placeholder="+91-1234567890" pattern="+91-[0-9]{10}" required>
+      </fieldset>
+
+
+      <br>
+
+      <input type="submit" value="Submit">
+
+
+
+    </fieldset>
+
+
+  </form>
+</main>

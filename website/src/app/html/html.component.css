@@ -1,0 +1,9 @@
+.side {
+  position: fixed;
+  top:85px;
+}
+.main{
+  position: relative;
+  top: 85px;
+  left: 300px;
+}

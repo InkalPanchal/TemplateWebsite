@@ -1,0 +1,22 @@
+.experience{
+    padding: 150px 50px;
+}
+.experience h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #945b44;
+}
+.experience h3{
+    color: #4a3d2e;
+}
+
+.experience h4{
+    color: #7a6954;
+}
+.experience p{
+    color: #4d88b3;
+}
+span{
+  float: right;
+  color: #4a3d2e;
+}

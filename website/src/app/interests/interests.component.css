@@ -1,0 +1,12 @@
+.interest{
+    padding: 200px 50px;
+}
+.interest h2{
+    color: #945b44;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.interest p{
+    color: #7a6954;
+}

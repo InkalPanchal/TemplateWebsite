@@ -1,0 +1,17 @@
+.div1,.div2,.div3{
+    text-align: center;
+    border: 5px solid black;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.div1{
+    background-color: brown;
+}
+.div2{
+    background-color: peachpuff;
+}
+.div3{
+    background-color: powderblue;
+}
